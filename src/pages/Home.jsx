@@ -39,8 +39,8 @@ export default function Home() {
         </p>
         <div className="hero-btns">
           <Link to="/about" className="btn btn-primary">Learn More</Link>
-          <a href="/resumes/aman-resume.pdf" className="btn btn-outline" target="_blank" rel="noopener noreferrer">View Resume</a>
-          <a href="/resumes/aman-resume.pdf" className="btn btn-ghost" download>Download Resume</a>
+          <a href={import.meta.env.BASE_URL + 'resumes/aman-resume.pdf'} className="btn btn-outline" target="_blank" rel="noopener noreferrer">View Resume</a>
+          <a href={import.meta.env.BASE_URL + 'resumes/aman-resume.pdf'} className="btn btn-ghost" download>Download Resume</a>
           <Link to="/contact" className="btn btn-ghost">Contact Me</Link>
         </div>
         <div className="hero-stats">

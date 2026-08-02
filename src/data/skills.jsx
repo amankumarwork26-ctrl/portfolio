@@ -11,9 +11,9 @@ export const skillsData = [
     ),
     type: 'items',
     items: [
-      { name: 'HTML5', logo: '/images/skills/html5 logo.jpg', alt: 'HTML5' },
-      { name: 'CSS3', logo: '/images/skills/css logo.jpg', alt: 'CSS3' },
-      { name: 'JavaScript', logo: '/images/skills/java script logo.jpg', alt: 'JavaScript' },
+      { name: 'HTML5', logo: import.meta.env.BASE_URL + 'images/skills/html5 logo.jpg', alt: 'HTML5' },
+      { name: 'CSS3', logo: import.meta.env.BASE_URL + 'images/skills/css logo.jpg', alt: 'CSS3' },
+      { name: 'JavaScript', logo: import.meta.env.BASE_URL + 'images/skills/java script logo.jpg', alt: 'JavaScript' },
     ],
   },
   {
@@ -28,8 +28,8 @@ export const skillsData = [
     ),
     type: 'items',
     items: [
-      { name: 'Node.js', logo: '/images/skills/node js logo.jpg', alt: 'Node.js' },
-      { name: 'Express.js', logo: '/images/skills/express js.jpg', alt: 'Express.js' },
+      { name: 'Node.js', logo: import.meta.env.BASE_URL + 'images/skills/node js logo.jpg', alt: 'Node.js' },
+      { name: 'Express.js', logo: import.meta.env.BASE_URL + 'images/skills/express js.jpg', alt: 'Express.js' },
       {
         name: 'REST API',
         svg: (
@@ -51,10 +51,10 @@ export const skillsData = [
     ),
     type: 'items',
     items: [
-      { name: 'Python', logo: '/images/skills/python logo.jpg', alt: 'Python' },
-      { name: 'C', logo: '/images/skills/c language.jpg', alt: 'C' },
-      { name: 'C++', logo: '/images/skills/c++ logo.jpg', alt: 'C++' },
-      { name: 'Java', logo: '/images/skills/java logo.jpg', alt: 'Java' },
+      { name: 'Python', logo: import.meta.env.BASE_URL + 'images/skills/python logo.jpg', alt: 'Python' },
+      { name: 'C', logo: import.meta.env.BASE_URL + 'images/skills/c language.jpg', alt: 'C' },
+      { name: 'C++', logo: import.meta.env.BASE_URL + 'images/skills/c++ logo.jpg', alt: 'C++' },
+      { name: 'Java', logo: import.meta.env.BASE_URL + 'images/skills/java logo.jpg', alt: 'Java' },
     ],
   },
   {
@@ -79,7 +79,7 @@ export const skillsData = [
           </svg>
         ),
       },
-      { name: 'DBMS', logo: '/images/skills/sql logo.jpg', alt: 'SQL' },
+      { name: 'DBMS', logo: import.meta.env.BASE_URL + 'images/skills/sql logo.jpg', alt: 'SQL' },
       {
         name: 'Operating Systems',
         svg: (

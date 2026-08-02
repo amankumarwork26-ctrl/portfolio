@@ -4,7 +4,7 @@ export const certificationsData = [
     issuer: 'Google / AI Masterclass',
     title: 'AI Master Class Certificate',
     description: 'Completed an AI master class focused on artificial intelligence concepts, tools, and practical learning.',
-    file: '/certificates/certificate-ai-master-class-google.pdf',
+    file: import.meta.env.BASE_URL + 'certificates/certificate-ai-master-class-google.pdf',
     colorClass: 'cert-ai',
     svg: (
       <svg viewBox="0 0 24 24" fill="currentColor">
@@ -17,7 +17,7 @@ export const certificationsData = [
     issuer: 'Simplilearn',
     title: 'Data Analyst 101',
     description: "Completed Simplilearn's Data Analyst 101 certificate covering data analysis fundamentals and core analytics concepts.",
-    file: '/certificates/certificate-data-analyst-101.pdf',
+    file: import.meta.env.BASE_URL + 'certificates/certificate-data-analyst-101.pdf',
     colorClass: 'cert-data',
     svg: (
       <svg viewBox="0 0 24 24" fill="currentColor">
@@ -30,7 +30,7 @@ export const certificationsData = [
     issuer: 'GDG Patna / Divya Club - BIT Patna',
     title: 'Build with AI 2026',
     description: 'Participated in Build with AI 2026 organized by Google Developer Groups (GDG) Patna in collaboration with Divya Club - BIT Patna.',
-    file: '/certificates/certificate-build-with-ai-2026.jpeg',
+    file: import.meta.env.BASE_URL + 'certificates/certificate-build-with-ai-2026.jpeg',
     colorClass: 'cert-gdg',
     svg: (
       <svg viewBox="0 0 24 24" fill="currentColor">
@@ -46,7 +46,7 @@ export const certificationsData = [
     issuer: 'Spoken Tutorial, IIT Bombay Certificate',
     title: 'Java Certificate',
     description: 'Completed a Java participation certificate focused on programming fundamentals and practical learning.',
-    file: '/certificates/certificate-java.pdf',
+    file: import.meta.env.BASE_URL + 'certificates/certificate-java.pdf',
     colorClass: 'cert-java',
     svg: (
       <svg viewBox="0 0 24 24" fill="currentColor">
@@ -59,7 +59,7 @@ export const certificationsData = [
     issuer: 'Spoken Tutorial, IIT Bombay Certificate',
     title: 'CSS Certificate',
     description: 'Completed a CSS participation certificate covering styling, layout, and responsive web design basics.',
-    file: '/certificates/certificate-css.pdf',
+    file: import.meta.env.BASE_URL + 'certificates/certificate-css.pdf',
     colorClass: 'cert-css',
     svg: (
       <svg viewBox="0 0 24 24" fill="currentColor">
@@ -72,7 +72,7 @@ export const certificationsData = [
     issuer: 'Spoken Tutorial, IIT Bombay Certificate',
     title: 'JavaScript Certificate',
     description: 'Completed a JavaScript participation certificate covering web interactivity, scripting basics, and practical learning.',
-    file: '/certificates/certificate-javascript.pdf',
+    file: import.meta.env.BASE_URL + 'certificates/certificate-javascript.pdf',
     colorClass: 'cert-js',
     svg: (
       <svg viewBox="0 0 24 24" fill="currentColor">
@@ -86,7 +86,7 @@ export const certificationsData = [
     issuer: 'CompTIA A+',
     title: 'Computer Hardware Certificate',
     description: 'Completed a CompTIA A+ computer hardware certificate covering hardware components and technical fundamentals.',
-    file: '/certificates/certificate-comptia-a-plus-hardware.pdf',
+    file: import.meta.env.BASE_URL + 'certificates/certificate-comptia-a-plus-hardware.pdf',
     colorClass: 'cert-hardware',
     svg: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -101,7 +101,7 @@ export const certificationsData = [
     issuer: 'Participant Certificate',
     title: 'Drone Certificate',
     description: 'Completed a drone certificate focused on drone technology, operation, and practical awareness.',
-    file: '/certificates/certificate-drone.pdf',
+    file: import.meta.env.BASE_URL + 'certificates/certificate-drone.pdf',
     colorClass: 'cert-drone',
     svg: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -114,7 +114,7 @@ export const certificationsData = [
     issuer: 'MongoDB University',
     title: 'CRUD Operations',
     description: 'Successfully completed CRUD Operations training focused on database operations, data manipulation, and practical implementation.',
-    file: '/certificates/cert-mongodb-crud.pdf',
+    file: import.meta.env.BASE_URL + 'certificates/cert-mongodb-crud.pdf',
     colorClass: 'cert-mongo',
     svg: (
       <svg viewBox="0 0 24 24" fill="currentColor">
@@ -127,7 +127,7 @@ export const certificationsData = [
     issuer: 'Cimage Group Of Institutions',
     title: 'Web Development Workshop',
     description: 'Actively participated in Web Development Workshop (July 28-30, 2025) covering front-end, back-end technologies, website design, and deployment techniques.',
-    file: '/certificates/cert-web-development.pdf',
+    file: import.meta.env.BASE_URL + 'certificates/cert-web-development.pdf',
     colorClass: 'cert-web',
     svg: (
       <svg viewBox="0 0 24 24" fill="currentColor">
