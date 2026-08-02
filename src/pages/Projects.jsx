@@ -31,7 +31,10 @@ export default function Projects() {
                     <span className="project-icon">{project.icon}</span>
                   </div>
                   <div className="project-overlay">
-                    <button className="overlay-btn overlay-demo" onClick={() => setSelectedProject(project)}>Read More</button>
+                    <button className="overlay-btn overlay-demo" onClick={() => setSelectedProject(project)}>Details</button>
+                    {project.liveDemo && (
+                      <a href={project.liveDemo} className="overlay-btn" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                    )}
                   </div>
                 </div>
                 <div className="project-body">
@@ -42,6 +45,12 @@ export default function Projects() {
                       <span key={idx}>{tag}</span>
                     ))}
                   </div>
+                  <div className="project-links">
+                    <a href={project.github} className="project-link" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                    {project.liveDemo && (
+                      <a href={project.liveDemo} className="project-link project-link-live" target="_blank" rel="noopener noreferrer">Live Demo ↗</a>
+                    )}
+                  </div>
                 </div>
               </div>
             </ScrollReveal>
@@ -49,7 +58,7 @@ export default function Projects() {
         </div>
 
         <div className="projects-cta">
-          <a href="https://github.com/" className="btn btn-outline" target="_blank" rel="noopener noreferrer">View All on GitHub →</a>
+          <a href="https://github.com/amankumarwork26-ctrl" className="btn btn-outline" target="_blank" rel="noopener noreferrer">View All on GitHub →</a>
         </div>
       </div>
 

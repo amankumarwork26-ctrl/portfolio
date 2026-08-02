@@ -48,12 +48,16 @@ export default function ProjectModal({ project, onClose }) {
         </div>
 
         <div className="modal-footer">
-          <a href={project.github} className="btn btn-outline" target="_blank" rel="noopener noreferrer">
-            <Code size={18} style={{ marginRight: '8px' }} /> Source Code
-          </a>
-          <a href={project.liveDemo} className="btn btn-primary" target="_blank" rel="noopener noreferrer">
-            <ExternalLink size={18} style={{ marginRight: '8px' }} /> Live Demo
-          </a>
+          {project.github && project.github !== '#' && (
+            <a href={project.github} className="btn btn-outline" target="_blank" rel="noopener noreferrer">
+              <Code size={18} style={{ marginRight: '8px' }} /> Source Code
+            </a>
+          )}
+          {project.liveDemo && (
+            <a href={project.liveDemo} className="btn btn-primary" target="_blank" rel="noopener noreferrer">
+              <ExternalLink size={18} style={{ marginRight: '8px' }} /> Live Demo
+            </a>
+          )}
         </div>
       </motion.div>
     </div>

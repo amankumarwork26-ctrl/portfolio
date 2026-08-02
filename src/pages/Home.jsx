@@ -44,9 +44,9 @@ export default function Home() {
           <Link to="/contact" className="btn btn-ghost">Contact Me</Link>
         </div>
         <div className="hero-stats">
-          <div className="stat"><span className="stat-num">4+</span><span className="stat-label">Projects</span></div>
+          <div className="stat"><span className="stat-num">3+</span><span className="stat-label">Projects</span></div>
           <div className="stat-divider"></div>
-          <div className="stat"><span className="stat-num">5+</span><span className="stat-label">Technologies</span></div>
+          <div className="stat"><span className="stat-num">10+</span><span className="stat-label">Technologies</span></div>
         </div>
       </div>
       <Link to="/about" className="hero-scroll-hint" aria-label="Scroll to about section">

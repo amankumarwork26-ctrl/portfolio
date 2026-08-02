@@ -3,17 +3,18 @@ export const projectsData = [
     id: 1,
     title: 'Personal Portfolio',
     description:
-      'This responsive portfolio website is built with HTML, CSS, and JavaScript. It features a modern UI, smooth animations, and a polished personal brand experience.',
+      'This responsive portfolio website is built with React and Vite. It features a modern ultra-dark neon glass UI, smooth animations, page transitions, and a polished personal brand experience.',
     longDescription:
-      'A comprehensive personal portfolio designed to showcase my skills, projects, and professional journey. It leverages modern frontend practices like CSS Grid/Flexbox, custom animations, and a responsive layout that works flawlessly across all devices. The project aims to provide an interactive and engaging user experience.',
+      'A comprehensive personal portfolio designed to showcase my skills, projects, and professional journey. Built with React 19, Vite, and Framer Motion, it leverages custom hooks, a particles canvas, page transitions, and a fully responsive layout that works flawlessly across all devices. Includes a contact form powered by EmailJS.',
     challenges: [
-      'Implementing smooth, physics-based scroll animations without performance drops.',
-      'Designing a consistent Ultra Dark neon theme that remains highly legible.',
-      'Ensuring complete responsiveness across mobile, tablet, and desktop views.'
+      'Implementing smooth, physics-based scroll and page-transition animations without performance drops.',
+      'Designing a consistent Ultra Dark neon theme that remains highly legible in both light and dark modes.',
+      'Ensuring complete responsiveness across mobile, tablet, and desktop views.',
+      'Deploying a React SPA to GitHub Pages with correct asset paths and client-side routing.'
     ],
-    techTags: ['React', 'Framer Motion', 'CSS3', 'Vite'],
-    github: '#',
-    liveDemo: '#',
+    techTags: ['React', 'Framer Motion', 'Vite', 'CSS3'],
+    github: 'https://github.com/amankumarwork26-ctrl/portfolio',
+    liveDemo: 'https://amankumarwork26-ctrl.github.io/portfolio/',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
         <circle cx="12" cy="12" r="10" />
@@ -24,18 +25,40 @@ export const projectsData = [
   },
   {
     id: 2,
-    title: 'Resume Analyzer',
+    title: 'Pharmacy Management System',
     description:
-      'A smart resume analysis tool that helps extract and evaluate key details from resumes for better screening and profile matching.',
+      'A production-ready full-stack pharmacy SaaS with billing, inventory, role-based access control, reports, and an RTI module.',
     longDescription:
-      'An automated tool that parses resumes and extracts critical information such as skills, experience, and contact details. It streamlines the recruitment process by providing structured data outputs from unstructured PDF or DOCX files, helping HR professionals quickly identify the best candidates.',
+      'A complete full-stack Pharmacy Management System built with React, TypeScript, Node.js, Express, Prisma ORM, and PostgreSQL. It includes JWT authentication with refresh tokens, role-based access control (Super Admin / Admin / Staff), a billing system with GST calculation and PDF generation, inventory management with low-stock and expiry alerts, purchase and returns processing, sales/profit reports, audit logs, and a dashboard with analytics.',
     challenges: [
-      'Parsing complex PDF structures with varying layouts and fonts.',
-      'Extracting entities accurately using natural language processing (NLP) techniques.',
-      'Building a clean, intuitive web interface for users to upload and view results.'
+      'Designing role-based access control and secure JWT authentication with refresh tokens.',
+      'Building a billing system with GST calculations, auto stock updates, and PDF invoice generation.',
+      'Implementing real-time low-stock and expiry alerts across inventory management.',
+      'Adding an RTI module with auto-generated PDF drafts, due-date reminders, and status tracking.'
     ],
-    techTags: ['Python', 'NLP', 'Data Parsing', 'Flask/FastAPI'],
-    github: '#',
+    techTags: ['React', 'TypeScript', 'Node.js', 'Express', 'Prisma', 'PostgreSQL'],
+    github: 'https://github.com/amankumarwork26-ctrl/Pharmacy-Management-System',
+    liveDemo: '',
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M20.42 4.58a5.4 5.4 0 0 0-7.65 0l-.77.78-.77-.78a5.4 5.4 0 0 0-7.65 7.65l.78.77L12 21l7.64-7.64.78-.77a5.4 5.4 0 0 0 0-7.65z" />
+      </svg>
+    ),
+  },
+  {
+    id: 3,
+    title: 'AI Resume Analyzer',
+    description:
+      'An AI-powered resume analyzer that uploads a PDF resume and provides actionable feedback on content, structure, and ATS compatibility.',
+    longDescription:
+      'A full-stack web application that analyzes resumes using the OpenRouter AI API. Users upload their resume in PDF format and get AI-generated suggestions to improve quality, structure, and ATS (Applicant Tracking System) compatibility. Built with Node.js and Express on the backend with a clean, responsive frontend. Built to learn how AI APIs integrate with full-stack development.',
+    challenges: [
+      'Parsing and extracting content from uploaded PDF resumes.',
+      'Integrating the OpenRouter AI API securely on the backend to avoid exposing API keys.',
+      'Generating clear, structured, and actionable AI feedback on resume quality.'
+    ],
+    techTags: ['Node.js', 'Express', 'OpenRouter AI', 'JavaScript'],
+    github: 'https://github.com/amankumarwork26-ctrl/Resume-Analiser-Project',
     liveDemo: 'https://resume-analiser-project.onrender.com/',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
