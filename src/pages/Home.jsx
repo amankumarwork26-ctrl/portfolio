@@ -30,12 +30,12 @@ export default function Home() {
         <p className="hero-greeting">Hello, I'm</p>
         <h1 className="hero-name">Aman <span>Kumar</span></h1>
         <div className="hero-role">
-          <span className="role-static">Creative Tech Learner &amp; </span>
+          <span className="role-static">Aspiring Software Developer &amp; </span>
           <span className="typed-text" ref={typedTextRef}></span><span className="typed-cursor">|</span>
         </div>
         <p className="hero-desc">
-          I enjoy building software projects, learning new technologies, and solving real-world problems through code.
-          My goal is to become a professional software developer and contribute to impactful technology solutions.
+          I build clean, efficient software and love turning ideas into real-world solutions.
+          My mission is to grow into a professional developer who ships technology that truly makes a difference.
         </p>
         <div className="hero-btns">
           <Link to="/about" className="btn btn-primary">Learn More</Link>

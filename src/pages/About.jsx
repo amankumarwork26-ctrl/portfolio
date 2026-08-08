@@ -17,7 +17,6 @@ export default function About() {
         <div className="about-grid">
           <div className="about-visual">
             <div className="about-avatar">
-              <div className="avatar-ring"></div>
               <div className="avatar-inner">
                 <img src={import.meta.env.BASE_URL + 'images/aman-profile.jpeg'} alt="Aman Kumar" className="avatar-photo" loading="eager" fetchPriority="high" />
               </div>
