@@ -1568,7 +1568,7 @@ body:not(:hover) .cursor, body:not(:hover) .cursor-trail { opacity: 0; }
   .about-visual { align-items: center; }
   .about-avatar { width: 175px; }
   .avatar-inner { width: 175px; height: 220px; }
-  .avatar-badge { font-size: 0.56rem; padding: 5px 12px; max-width: 180px; white-space: normal; text-align: center; bottom: -20px; }
+  .avatar-badge { font-size: 0.56rem; padding: 5px 12px; max-width: none; white-space: nowrap; text-align: center; bottom: -20px; letter-spacing: 0.4px; }
   .about-quick-info { padding: 16px; }
   .quick-item { font-size: 0.78rem; gap: 10px; }
   .about-text p { font-size: 0.84rem; }
