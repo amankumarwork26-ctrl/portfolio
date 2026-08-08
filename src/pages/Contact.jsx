@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { countryCodes } from '../data/countryCodes';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import toast from 'react-hot-toast';
@@ -19,6 +19,14 @@ export default function Contact() {
   });
   const [errors, setErrors] = useState({});
   const [sending, setSending] = useState(false);
+  const formWrapRef = useRef(null);
+
+  useEffect(() => {
+    const t = setTimeout(() => {
+      formWrapRef.current?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }, 350);
+    return () => clearTimeout(t);
+  }, []);
 
   function validateEmail(val) {
     return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(val);
@@ -238,6 +246,7 @@ export default function Contact() {
             </div>
           </div>
           <motion.div
+            ref={formWrapRef}
             className="contact-form-wrap"
             variants={fadeUp}
             initial="hidden"
